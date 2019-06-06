@@ -1,12 +1,12 @@
 str=input()
-f=0
-g=0
+a=0
+b=0
 for i in str:
     if i.isalpha():
-        f+=1
+        a+=1
     elif i.isnumeric():
-        g+=1
-if(f>=1 and g>=1):
+        b+=1
+if(a>=1 and b>=1):
     print("Yes")
 else:
     print("No")
